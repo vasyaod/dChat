@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Code::Blocks_layout_file>
+<Code::Blocks_layout_file>
+	<File name="dpixmapbutton.cpp" open="0" top="0">
+		<Cursor position="267" topLine="15"/>
+	</File>
+	<File name="dpixmapview.cpp" open="0" top="0">
+		<Cursor position="456" topLine="0"/>
+	</File>
+	<File name="dpixmapview.h" open="0" top="0">
+		<Cursor position="64" topLine="0"/>
+	</File>
+	<File name="dwindowframe.cpp" open="0" top="0">
+		<Cursor position="29159" topLine="760"/>
+	</File>
+	<File name="dwindowframe.h" open="0" top="0">
+		<Cursor position="1547" topLine="30"/>
+	</File>
+</Code::Blocks_layout_file>

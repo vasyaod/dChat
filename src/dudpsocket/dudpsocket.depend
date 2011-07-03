@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1133996832 d:\myprog\dchat-interface\dudpsocket\dudpsocket_moc.cpp
+	"dudpsocket.h"
+
+1134012382 d:\myprog\dchat-interface\dudpsocket\dudpsocket.h
+	<QtGui>
+	<QHostAddress>
+	<winsock.h>
+
+1133996876 d:\myprog\dchat-interface\dudpsocket\main.cpp
+	"dudpsocket.h"
+	"dwidget.h"
+
+1134056856 d:\myprog\dchat-interface\dudpsocket\dudpsocket.cpp
+	"dudpsocket.h"
+
+1133996832 d:\myprog\dchat\src\dudpsocket\dudpsocket_moc.cpp
+	"dudpsocket.h"
+
+1135877726 d:\myprog\dchat\src\dudpsocket\dudpsocket.h
+	<QtGui>
+	<QHostAddress>
+	<winsock.h>
+
+1134900486 d:\myprog\dchat\src\dudpsocket\main.cpp
+	"dudpsocket.h"
+	"dwidget.h"
+
+1137165404 d:\myprog\dchat\src\dudpsocket\dudpsocket.cpp
+	"dudpsocket.h"
+

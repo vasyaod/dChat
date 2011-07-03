@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1134552054 d:\myprog\dchat-interface\dtrayicon\dtrayicon_moc.cpp
+	"dtrayicon.h"
+
+1134557584 d:\myprog\dchat-interface\dtrayicon\dtrayicon.h
+	<QtGui>
+
+1134554264 d:\myprog\dchat-interface\dtrayicon\dtrayicon.cpp
+	<windows.h>
+	"dtrayicon.h"
+

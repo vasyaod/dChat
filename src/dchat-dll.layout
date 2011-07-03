@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<!DOCTYPE Code::Blocks_layout_file>
+<Code::Blocks_layout_file>
+	<File name="dchannelwindow\dchannelitemdelegate.cpp" open="0" top="0">
+		<Cursor position="1546" topLine="42"/>
+	</File>
+	<File name="dchannelwindow\dchannelwindow.cpp" open="1" top="0">
+		<Cursor position="6241" topLine="162"/>
+	</File>
+	<File name="dchannelwindow\dchannelwindow_moc.cpp" open="0" top="0">
+		<Cursor position="748" topLine="7"/>
+	</File>
+	<File name="dchannelwindow\dmessagetable.cpp" open="1" top="0">
+		<Cursor position="1690" topLine="48"/>
+	</File>
+	<File name="dchannelwindow\dmessagetable_moc.cpp" open="0" top="0">
+		<Cursor position="315" topLine="0"/>
+	</File>
+	<File name="dchannelwindow\dsettingchannel.cpp" open="0" top="0">
+		<Cursor position="293" topLine="0"/>
+	</File>
+	<File name="dchannelwindow\dsettingchannel_moc.cpp" open="0" top="0">
+		<Cursor position="388" topLine="0"/>
+	</File>
+	<File name="dchatapplication.cpp" open="0" top="0">
+		<Cursor position="11312" topLine="215"/>
+	</File>
+	<File name="dchatapplication.h" open="0" top="0">
+		<Cursor position="6616" topLine="176"/>
+	</File>
+	<File name="dchatgemstone.cpp" open="0" top="0">
+		<Cursor position="550" topLine="15"/>
+	</File>
+	<File name="dlistviewex\ditemdelegate.cpp" open="0" top="0">
+		<Cursor position="242" topLine="0"/>
+	</File>
+	<File name="dlistviewex\dlistviewex.cpp" open="0" top="0">
+		<Cursor position="476" topLine="0"/>
+	</File>
+	<File name="dlistviewex\dlistviewex.h" open="0" top="0">
+		<Cursor position="519" topLine="6"/>
+	</File>
+	<File name="dlogwindow\dlogwindow.cpp" open="1" top="0">
+		<Cursor position="3762" topLine="78"/>
+	</File>
+	<File name="dmessageeditor\dmessageeditor.cpp" open="1" top="1">
+		<Cursor position="2604" topLine="138"/>
+	</File>
+	<File name="dmessageeditor\dmessageeditor.h" open="0" top="0">
+		<Cursor position="3037" topLine="73"/>
+	</File>
+	<File name="dpropertywindow.cpp" open="0" top="0">
+		<Cursor position="5907" topLine="153"/>
+	</File>
+	<File name="dsetting.cpp" open="0" top="0">
+		<Cursor position="492" topLine="0"/>
+	</File>
+	<File name="dsettinggeneral.cpp" open="0" top="0">
+		<Cursor position="2865" topLine="51"/>
+	</File>
+	<File name="dsettinguserwin_moc.cpp" open="0" top="0">
+		<Cursor position="564" topLine="13"/>
+	</File>
+	<File name="dtrayicon\dtrayicon.h" open="0" top="0">
+		<Cursor position="479" topLine="13"/>
+	</File>
+	<File name="duserinfowindow\duserinfowindow.cpp" open="0" top="0">
+		<Cursor position="1085" topLine="15"/>
+	</File>
+	<File name="duserwindow.cpp" open="0" top="0">
+		<Cursor position="16364" topLine="393"/>
+	</File>
+	<File name="duserwindow.h" open="0" top="0">
+		<Cursor position="484" topLine="9"/>
+	</File>
+	<File name="dwarningwindow\dsettingwarning.cpp" open="0" top="0">
+		<Cursor position="1563" topLine="0"/>
+	</File>
+	<File name="dwindow.cpp" open="0" top="0">
+		<Cursor position="1734" topLine="45"/>
+	</File>
+	<File name="net\dlocaluser.cpp" open="0" top="0">
+		<Cursor position="2049" topLine="84"/>
+	</File>
+	<File name="net\dmanager.cpp" open="0" top="0">
+		<Cursor position="4082" topLine="132"/>
+	</File>
+	<File name="net\dmanager.h" open="0" top="0">
+		<Cursor position="6380" topLine="150"/>
+	</File>
+	<File name="net\dremoteuser.cpp" open="0" top="0">
+		<Cursor position="8708" topLine="6"/>
+	</File>
+	<File name="net\dservice.cpp" open="0" top="0">
+		<Cursor position="23323" topLine="633"/>
+	</File>
+	<File name="net\dservice.h" open="0" top="0">
+		<Cursor position="1928" topLine="63"/>
+	</File>
+	<File name="net\duser.cpp" open="0" top="0">
+		<Cursor position="672" topLine="15"/>
+	</File>
+	<File name="net\duser.h" open="0" top="0">
+		<Cursor position="998" topLine="24"/>
+	</File>
+	<File name="netex\dlocalautouserex.cpp" open="0" top="0">
+		<Cursor position="2470" topLine="47"/>
+	</File>
+	<File name="netex\dlocaluserex.cpp" open="0" top="0">
+		<Cursor position="1677" topLine="33"/>
+	</File>
+	<File name="netex\dmanagerex.cpp" open="0" top="0">
+		<Cursor position="2612" topLine="58"/>
+	</File>
+	<File name="netex\dsettinglocaluser.cpp" open="0" top="0">
+		<Cursor position="1573" topLine="0"/>
+	</File>
+	<File name="netex\dsettingnet.cpp" open="0" top="0">
+		<Cursor position="5151" topLine="96"/>
+	</File>
+	<File name="netex\duserex.cpp" open="0" top="0">
+		<Cursor position="4728" topLine="144"/>
+	</File>
+	<Expand folder="/Sources/dlogwindow"/>
+	<Expand folder="/Sources"/>
+</Code::Blocks_layout_file>

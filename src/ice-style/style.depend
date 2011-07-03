@@ -1,0 +1,78 @@
+# depslib dependency file v1.0
+1133498684 d:\myprog\dchat-style\main.cpp
+	<QtGui>
+
+1133761374 d:\myprog\dchat-interface\ice-style\main.cpp
+	<QtGui>
+	"icestyle.h"
+
+1133757654 d:\myprog\dchat-interface\ice-style\ice-style.h
+	<QtGui>
+
+1133757660 d:\myprog\dchat-interface\ice-style\ice-style_moc.cpp
+	"ice-style.h"
+
+1133757928 d:\myprog\dchat-interface\ice-style\icestyle_moc.cpp
+	"icestyle.h"
+
+1133765062 d:\myprog\dchat-interface\ice-style\icestyle.h
+	<QtGui>
+
+1133766026 d:\myprog\dchat-interface\ice-style\icestyle.cpp
+	<QtGui>
+	"icestyle.h"
+
+1119723124 d:\1\src\gui\styles\qwindowsstyle.cpp
+	"qwindowsstyle.h"
+	"qapplication.h"
+	"qbitmap.h"
+	"qdrawutil.h"
+	"qevent.h"
+	"qmenu.h"
+	"qmenubar.h"
+	"qpaintengine.h"
+	"qpainter.h"
+	"qrubberband.h"
+	"qstyleoption.h"
+	"qtabbar.h"
+	"qwidget.h"
+	"qdebug.h"
+	"qt_windows.h"
+	<limits.h>
+
+1119723124 d:\1\src\gui\styles\qwindowsstyle.h
+	"QtGui/qcommonstyle.h"
+
+1119723124 d:\1\src\gui\styles\qstyleoption.h
+	"QtGui/qabstractspinbox.h"
+	"QtGui/qicon.h"
+	"QtGui/qslider.h"
+	"QtGui/qstyle.h"
+	"QtGui/qtabbar.h"
+	"QtGui/qtabwidget.h"
+	"QtGui/qrubberband.h"
+
+1133760844 d:\1\src\gui\styles\qwindowsstyle_moc.cpp
+	"qwindowsstyle.h"
+
+1133761494 d:\myprog\dchat-interface\ice-style\qwindowsstyle_moc.cpp
+	<qwindowsstyle.h>
+
+1133761540 d:\myprog\dchat-interface\ice-style\qwindowsstyle.cpp
+	<qwindowsstyle.h>
+	"qapplication.h"
+	"qbitmap.h"
+	"qdrawutil.h"
+	"qevent.h"
+	"qmenu.h"
+	"qmenubar.h"
+	"qpaintengine.h"
+	"qpainter.h"
+	"qrubberband.h"
+	"qstyleoption.h"
+	"qtabbar.h"
+	"qwidget.h"
+	"qdebug.h"
+	"qt_windows.h"
+	<limits.h>
+

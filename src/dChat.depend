@@ -1,0 +1,573 @@
+# depslib dependency file v1.0
+1133225380 d:\myprog\dchat\src\dchannelwindow\dchannelitemdelegate.cpp
+	<QtGui>
+	"dchannelitemdelegate.h"
+
+1133215290 d:\myprog\dchat\src\dchannelwindow\dchannelitemdelegate.h
+	<QItemDelegate>
+
+1135162534 d:\myprog\dchat\src\dchannelwindow\dchannelwindow.cpp
+	"../dchatapplication.h"
+	"../dsetting.h"
+	"../dpropertywindow.h"
+	"../netex/dmanagerex.h"
+	"../dwindowframe/dwindowframe.h"
+	"dchannelwindow.h"
+	"dsettingchannel.h"
+	"dmessagetable.h"
+
+1135746694 d:\myprog\dchat\src\dchatapplication.h
+	<QtGui>
+	<QtXml>
+	"netex/dusersfactory.h"
+	"dsetting.h"
+
+1135172676 d:\myprog\dchat\src\netex\dusersfactory.h
+	<QtGui>
+	"dabstractusercreator.h"
+
+1135172886 d:\myprog\dchat\src\netex\dlocaluserex.h
+	<QtGui>
+	"../net/dlocaluser.h"
+	"dabstractusercreator.h"
+
+1135614204 d:\myprog\dchat\src\net\dlocaluser.h
+	"../netex/duserex.h"
+
+1135249384 d:\myprog\dchat\src\netex\duserex.h
+	<QtGui>
+	"../net/duser.h"
+
+1135624342 d:\myprog\dchat\src\net\duser.h
+	<QtXml>
+	<QObject>
+	<QString>
+	<QHostAddress>
+	<QPixmap>
+	<QDateTime>
+	<QMetaType>
+
+1135172678 d:\myprog\dchat\src\netex\dabstractusercreator.h
+	<QString>
+	<QDomElement>
+
+1135514226 d:\myprog\dchat\src\dsetting.h
+	<QtGui>
+	<QtXml>
+
+1134085198 d:\myprog\dchat\src\dpropertywindow.h
+	<QtGui>
+	"dsetting.h"
+
+1135729570 d:\myprog\dchat\src\netex\dmanagerex.h
+	<QtGui>
+	"../net/dmanager.h"
+
+1135729598 d:\myprog\dchat\src\net\dmanager.h
+	<QList>
+	<QHostAddress>
+	<list>
+	"duser.h"
+	"dservice.h"
+
+1135577178 d:\myprog\dchat\src\net\dservice.h
+	<QtXml>
+	<QUdpSocket>
+	<QAbstractSocket>
+	<QTextStream>
+	<QIODevice>
+	"duser.h"
+
+1133583724 d:\myprog\dchat\src\dwindowframe\dwindowframe.h
+	<QtGui>
+	"dpixmapbutton.h"
+	"dpixmapview.h"
+
+1122867466 d:\myprog\dchat\src\dwindowframe\dpixmapbutton.h
+	<QtGui>
+	"dpixmapview.h"
+
+1133581552 d:\myprog\dchat\src\dwindowframe\dpixmapview.h
+	<QtGui>
+
+1135162534 d:\myprog\dchat\src\dchannelwindow\dchannelwindow.h
+	<QtGui>
+	"../dwindow.h"
+	"../net/duser.h"
+
+1133370222 d:\myprog\dchat\src\dwindow.h
+	<QtGui>
+
+1133303998 d:\myprog\dchat\src\dchannelwindow\dsettingchannel.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+
+1135169466 d:\myprog\dchat\src\dchannelwindow\dmessagetable.h
+	<QtGui>
+	"../net/duser.h"
+
+1135162484 d:\myprog\dchat\src\dchannelwindow\dchannelwindow_moc.cpp
+	"dchannelwindow.h"
+
+1135171900 d:\myprog\dchat\src\dchannelwindow\dmessagetable.cpp
+	<QtGui>
+	"dchannelitemdelegate.h"
+	"dmessagetable.h"
+	"../dchatapplication.h"
+	"../netex/dmanagerex.h"
+
+1133750392 d:\myprog\dchat\src\dchannelwindow\dmessagetable_moc.cpp
+	"dmessagetable.h"
+
+1133465094 d:\myprog\dchat\src\dchannelwindow\dsettingchannel.cpp
+	"dsettingchannel.h"
+	"dchannelwindow.h"
+	"dmessagetable.h"
+
+1133749836 d:\myprog\dchat\src\dchannelwindow\dsettingchannel_moc.cpp
+	"dsettingchannel.h"
+
+1135801202 d:\myprog\dchat\src\dchatapplication.cpp
+	<QtGui>
+	<iostream.h>
+	"dchatapplication.h"
+	"duserwindow.h"
+	"dpropertywindow.h"
+	"dsettinggeneral.h"
+	"dplugininterface.h"
+	"dchatgemstone.h"
+	"dsettingplugin.h"
+	"netex/dmanagerex.h"
+	"netex/dsettingusers.h"
+	"netex/dsettingnet.h"
+	"netex/dlocaluserex.h"
+	"netex/dlocalautouserex.h"
+	"dwindowframe/dwindowframe.h"
+	"dmessageeditor/dmessageeditor.h"
+	"dmessageeditor/dsettingmessageeditor.h"
+	"dchannelwindow/dchannelwindow.h"
+	"dtopicwindow/dtopicwindow.h"
+	"dwarningwindow/dwarningwindow.h"
+	"dlogwindow/dlogwindow.h"
+	"duserinfowindow/duserinfowindow.h"
+	"dfriendswindow/dfriendswindow.h"
+	"dtrayicon/dtrayicon.h"
+	"net/dlocaluser.h"
+	"net/dservice.h"
+
+1135778680 d:\myprog\dchat\src\duserwindow.h
+	<QtGui>
+
+1133074158 d:\myprog\dchat\src\dsettinggeneral.h
+	<QtGui>
+	"dsetting.h"
+
+1135168432 d:\myprog\dchat\src\netex\dsettingusers.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+	"../net/duser.h"
+
+1134384772 d:\myprog\dchat\src\netex\dsettingnet.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+
+1135169540 d:\myprog\dchat\src\dtopicwindow\dtopicwindow.h
+	<QtGui>
+	"../dwindow.h"
+
+1135548562 d:\myprog\dchat\src\dmessageeditor\dmessageeditor.h
+	<QtGui>
+	"../net/duser.h"
+
+1135157250 d:\myprog\dchat\src\dwarningwindow\dwarningwindow.h
+	<QtGui>
+	"../dwindow.h"
+	"../net/duser.h"
+
+1135551352 d:\myprog\dchat\src\dlogwindow\dlogwindow.h
+	<QtGui>
+	<QtXml>
+	"../net/duser.h"
+
+1135163404 d:\myprog\dchat\src\duserinfowindow\duserinfowindow.h
+	<QtGui>
+
+1135632744 d:\myprog\dchat\src\dfriendswindow\dfriendswindow.h
+	<QtGui>
+	"../dwindow.h"
+	"dfriendview.h"
+
+1134178206 d:\myprog\dchat\src\dfriendswindow\dfriendview.h
+
+1134557584 d:\myprog\dchat\src\dtrayicon\dtrayicon.h
+	<QtGui>
+
+1135732836 d:\myprog\dchat\src\dchatapplication_moc.cpp
+	"dchatapplication.h"
+
+1135634442 d:\myprog\dchat\src\dfriendswindow\dfriendswindow.cpp
+	"dfriendswindow.h"
+	"dsettingfriends.h"
+	"../dchatapplication.h"
+	"../dsettinggeneral.h"
+	"../dwindowframe/dwindowframe.h"
+	"../netex/dmanagerex.h"
+	"../net/duser.h"
+
+1134429346 d:\myprog\dchat\src\dfriendswindow\dsettingfriends.h
+	<QtGui>
+	"../dsetting.h"
+
+1135632758 d:\myprog\dchat\src\dfriendswindow\dfriendswindow_moc.cpp
+	"dfriendswindow.h"
+
+1134432632 d:\myprog\dchat\src\dfriendswindow\dsettingfriends.cpp
+	"dsettingfriends.h"
+	"dfriendswindow.h"
+
+1134428544 d:\myprog\dchat\src\dfriendswindow\dsettingfriends_moc.cpp
+	"dsettingfriends.h"
+
+1134628258 d:\myprog\dchat\src\dlistviewex\ditemdelegate.cpp
+	<QtGui>
+	"ditemdelegate.h"
+	"ditemwidget.h"
+	"dlistviewex.h"
+
+1132941070 d:\myprog\dchat\src\dlistviewex\ditemdelegate.h
+	<QItemDelegate>
+
+1135169454 d:\myprog\dchat\src\dlistviewex\ditemwidget.h
+	<QtGui>
+
+1134372786 d:\myprog\dchat\src\dlistviewex\dlistviewex.h
+	<QtGui>
+
+1132560124 d:\myprog\dchat\src\dlistviewex\ditemdelegate_moc.cpp
+	"ditemdelegate.h"
+
+1134371292 d:\myprog\dchat\src\dlistviewex\ditemwidget.cpp
+	"ditemwidget.h"
+
+1134378222 d:\myprog\dchat\src\dlistviewex\dlistviewex.cpp
+	"dlistviewex.h"
+	"ditemdelegate.h"
+	"ditemwidget.h"
+
+1132941838 d:\myprog\dchat\src\dlistviewex\dlistviewex_moc.cpp
+	"dlistviewex.h"
+
+1135551758 d:\myprog\dchat\src\dlogwindow\dlogwindow.cpp
+	"dlogwindow.h"
+	"../netex/dmanagerex.h"
+	"../dchatapplication.h"
+	"../dsettinggeneral.h"
+	"../dsetting.h"
+	"../dview.h"
+
+1134636892 d:\myprog\dchat\src\dview.h
+
+1135551362 d:\myprog\dchat\src\dlogwindow\dlogwindow_moc.cpp
+	"dlogwindow.h"
+
+1135799342 d:\myprog\dchat\src\dmessageeditor\dmessageeditor.cpp
+	"dmessageeditor.h"
+	"../netex/dmanagerex.h"
+	"dsettingmessageeditor.h"
+	"../dchatapplication.h"
+
+1135548588 d:\myprog\dchat\src\dmessageeditor\dmessageeditor_moc.cpp
+	"dmessageeditor.h"
+
+1135750366 d:\myprog\dchat\src\dpropertywindow.cpp
+	"dpropertywindow.h"
+
+1133359134 d:\myprog\dchat\src\dpropertywindow_moc.cpp
+	"dpropertywindow.h"
+
+1135516152 d:\myprog\dchat\src\dsetting.cpp
+	"dsetting.h"
+
+1132993738 d:\myprog\dchat\src\dsetting_moc.cpp
+	"dsetting.h"
+
+1135516152 d:\myprog\dchat\src\dsettinggeneral.cpp
+	"dsettinggeneral.h"
+
+1134526554 d:\myprog\dchat\src\dsettinguserwin.cpp
+	"dsettinguserwin.h"
+	"duserwindow.h"
+
+1133535174 d:\myprog\dchat\src\dsettinguserwin.h
+	<QtGui>
+	<QtXml>
+	"dsetting.h"
+
+1133533302 d:\myprog\dchat\src\dsettinguserwin_moc.cpp
+	"dsettinguserwin.h"
+
+1133767612 d:\myprog\dchat\src\dsettingwindow_moc.cpp
+	"dsettingwindow.h"
+
+1133767440 d:\myprog\dchat\src\dsettingwindow.h
+	<QtGui>
+	<QtXml>
+	"dsetting.h"
+
+1134090638 d:\myprog\dchat\src\dtopicwindow\dsettingtopic.cpp
+	"dsettingtopic.h"
+	"dtopicwindow.h"
+
+1133754752 d:\myprog\dchat\src\dtopicwindow\dsettingtopic.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+
+1133754768 d:\myprog\dchat\src\dtopicwindow\dsettingtopic_moc.cpp
+	"dsettingtopic.h"
+
+1135169530 d:\myprog\dchat\src\dtopicwindow\dtopicwindow.cpp
+	"dtopicwindow.h"
+	"dsettingtopic.h"
+	"../dchatapplication.h"
+	"../dsetting.h"
+	"../dwindowframe/dwindowframe.h"
+	"../netex/dmanagerex.h"
+
+1133752254 d:\myprog\dchat\src\dtopicwindow\dtopicwindow_moc.cpp
+	"dtopicwindow.h"
+
+1135197128 d:\myprog\dchat\src\duserinfowindow\duserinfowindow.cpp
+	"duserinfowindow.h"
+	"../net/duser.h"
+
+1135778780 d:\myprog\dchat\src\duserwindow.cpp
+	"duserwindow.h"
+	"dchatapplication.h"
+	"dsettingwindow.h"
+	"dsettinguserwin.h"
+	"dview.h"
+	"netex/dmanagerex.h"
+	"dwindowframe/dwindowframe.h"
+	"dchannelwindow/dchannelwindow.h"
+	"dtopicwindow/dtopicwindow.h"
+	"dfriendswindow/dfriendswindow.h"
+	"dlistviewex/dlistviewex.h"
+
+1134635058 d:\myprog\dchat\src\duserwindow_moc.cpp
+	"duserwindow.h"
+
+1135195700 d:\myprog\dchat\src\dwarningwindow\dsettingwarning.cpp
+	"dsettingwarning.h"
+
+1135195728 d:\myprog\dchat\src\dwarningwindow\dsettingwarning.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+
+1135195752 d:\myprog\dchat\src\dwarningwindow\dsettingwarning_moc.cpp
+	"dsettingwarning.h"
+
+1135195684 d:\myprog\dchat\src\dwarningwindow\dwarningwindow.cpp
+	"dwarningwindow.h"
+	"dsettingwarning.h"
+	"../dchatapplication.h"
+	"../dsettingwindow.h"
+	"../dwindowframe/dwindowframe.h"
+	"../dsetting.h"
+	"../dsettinggeneral.h"
+
+1135157360 d:\myprog\dchat\src\dwarningwindow\dwarningwindow_moc.cpp
+	"dwarningwindow.h"
+
+1134577114 d:\myprog\dchat\src\dwindow.cpp
+	"dwindow.h"
+	"dchatapplication.h"
+	"dsettingwindow.h"
+	"dwindowframe/dwindowframe.h"
+
+1133362736 d:\myprog\dchat\src\dwindow_moc.cpp
+	"dwindow.h"
+
+1123451102 d:\myprog\dchat\src\main.cpp
+	"dchatapplication.h"
+
+1135614204 d:\myprog\dchat\src\net\dlocaluser.cpp
+	"dlocaluser.h"
+	"dmanager.h"
+
+1135180454 d:\myprog\dchat\src\net\dmanager.cpp
+	"dmanager.h"
+	"dservice.h"
+	"duser.h"
+	<QtNetwork>
+
+1135613268 d:\myprog\dchat\src\net\dremoteuser.cpp
+	"dremoteuser.h"
+	"dservice.h"
+	"dmanager.h"
+
+1135262240 d:\myprog\dchat\src\net\dremoteuser.h
+	"dabstractremoteusercreator.h"
+	"../netex/duserex.h"
+
+1134997568 d:\myprog\dchat\src\net\dabstractremoteusercreator.h
+	<QHostAddress>
+	<QString>
+
+1135603126 d:\myprog\dchat\src\net\dservice.cpp
+	<QFile>
+	<QStringList>
+	<QDateTime>
+	"dservice.h"
+	"duser.h"
+	"dremoteuser.h"
+	"dmanager.h"
+	"../dudpsocket/dudpsocket.h"
+
+1134900766 d:\myprog\dchat\src\dudpsocket\dudpsocket.h
+	<QtGui>
+	<QHostAddress>
+	<winsock.h>
+
+1133997138 d:\myprog\dchat\src\net\dservice_moc.cpp
+	"dservice.h"
+
+1135206136 d:\myprog\dchat\src\net\duser.cpp
+	<QtGui>
+	"duser.h"
+	"dmanager.h"
+
+1133997482 d:\myprog\dchat\src\netex\diplistex.cpp
+	"diplistex.h"
+
+1133861878 d:\myprog\dchat\src\netex\diplistex.h
+	"../net/dservice.h"
+	"../dsetting.h"
+
+1135522630 d:\myprog\dchat\src\netex\dlocaluserex.cpp
+	"dlocaluserex.h"
+	"dmanagerex.h"
+	"dsettinglocaluser.h"
+	"../dchatapplication.h"
+	"../dwarningwindow/dwarningwindow.h"
+	"../duserwindow.h"
+	<QHostInfo>
+
+1134655018 d:\myprog\dchat\src\netex\dsettinglocaluser.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+
+1133311586 d:\myprog\dchat\src\netex\dlocaluserex_moc.cpp
+	"dlocaluserex.h"
+
+1135729570 d:\myprog\dchat\src\netex\dmanagerex.cpp
+	"../dchatapplication.h"
+	"../duserwindow.h"
+	"dmanagerex.h"
+	"duserex.h"
+
+1135614202 d:\myprog\dchat\src\netex\dmanagerex_moc.cpp
+	"dmanagerex.h"
+
+1133093264 d:\myprog\dchat\src\netex\dsettinglocaluser_moc.cpp
+	"dsettinglocaluser.h"
+
+1134655090 d:\myprog\dchat\src\netex\dsettingnet.cpp
+	"dsettingnet.h"
+	"dmanagerex.h"
+	"diplistex.h"
+	"../dchatapplication.h"
+	"../net/dservice.h"
+
+1133865488 d:\myprog\dchat\src\netex\dsettingnet_moc.cpp
+	"dsettingnet.h"
+
+1135176694 d:\myprog\dchat\src\netex\dsettingusers.cpp
+	"dsettingusers.h"
+	"dmanagerex.h"
+	"dlocaluserex.h"
+	"../dchatapplication.h"
+
+1133078772 d:\myprog\dchat\src\netex\dsettingusers_moc.cpp
+	"dsettingusers.h"
+
+1135255516 d:\myprog\dchat\src\netex\duserex.cpp
+	"duserex.h"
+	"../dchatapplication.h"
+	"../duserwindow.h"
+	"dmanagerex.h"
+
+1135173010 d:\myprog\dchat\src\netex\dusersfactory.cpp
+	"dusersfactory.h"
+	"dlocaluserex.h"
+	"dabstractusercreator.h"
+
+1134656714 d:\myprog\dchat\src\dsettingwindow.cpp
+	"dsettingwindow.h"
+	"dwindowframe/dwindowframe.h"
+
+1135181314 d:\myprog\dchat\src\netex\dsettinglocaluser.cpp
+	"dlocaluserex.h"
+	"dmanagerex.h"
+	"dsettinglocaluser.h"
+	"../dchatapplication.h"
+	"../duserwindow.h"
+
+1135172808 d:\myprog\dchat\src\netex\dlocalautouserex.h
+	<QtGui>
+	"../net/dlocaluser.h"
+	"dabstractusercreator.h"
+
+1134653208 d:\myprog\dchat\src\netex\dlocalautouserex_moc.cpp
+	"dlocalautouserex.h"
+
+1135602584 d:\myprog\dchat\src\netex\dlocalautouserex.cpp
+	"dlocalautouserex.h"
+	"dmanagerex.h"
+	"dsettinglocaluser.h"
+	"../dchatapplication.h"
+	"../duserwindow.h"
+	<QHostInfo>
+
+1135168230 d:\myprog\dchat\src\net\duser_moc.cpp
+
+1135516240 d:\myprog\dchat\src\dmessageeditor\dsettingmessageeditor.h
+	<QtGui>
+	<QtXml>
+	"../dsetting.h"
+
+1135514714 d:\myprog\dchat\src\dmessageeditor\dsettingmessageeditor_moc.cpp
+	"dsettingmessageeditor.h"
+
+1135543412 d:\myprog\dchat\src\dmessageeditor\dsettingmessageeditor.cpp
+	"dsettingmessageeditor.h"
+
+1135602584 d:\myprog\dchat\src\netex\dremoteuserex.cpp
+
+1135623472 d:\myprog\dchat\src\dplugininterface.h
+	<QtGui>
+
+1135753928 d:\myprog\dchat\src\dchatgemstone.h
+	<QtGui>
+
+1135799506 d:\myprog\dchat\src\dchatgemstone.cpp
+	"dchatgemstone.h"
+	"dchatapplication.h"
+	"dsettinggeneral.h"
+	"duserwindow.h"
+	"netex/dmanagerex.h"
+
+1135750730 d:\myprog\dchat\src\dsettingplugin.cpp
+	"dsettingplugin.h"
+	"dplugininterface.h"
+	"dchatapplication.h"
+
+1135750116 d:\myprog\dchat\src\dsettingplugin.h
+	<QtGui>
+	"dsetting.h"
+

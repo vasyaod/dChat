@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1135883772 d:\myprog\dchat\src\main.cpp
+	"dchatapplication.h"
+
+1135866732 d:\myprog\dchat\src\dchatapplication.h
+	<QtGui>
+	<QtXml>
+	"netex/dusersfactory.h"
+	"dsetting.h"
+
+1135172676 d:\myprog\dchat\src\netex\dusersfactory.h
+	<QtGui>
+	"dabstractusercreator.h"
+
+1135172678 d:\myprog\dchat\src\netex\dabstractusercreator.h
+	<QString>
+	<QDomElement>
+
+1135514226 d:\myprog\dchat\src\dsetting.h
+	<QtGui>
+	<QtXml>
+

@@ -1,0 +1,844 @@
+<?xml version="1.0"?>
+<!DOCTYPE Code::Blocks_project_file>
+<Code::Blocks_project_file>
+	<FileVersion major="1" minor="1"/>
+	<Project>
+		<Option title="dChat-free-DLL"/>
+		<Option makefile="Makefile"/>
+		<Option makefile_is_custom="0"/>
+		<Option active_target="0"/>
+		<Option compiler="0"/>
+		<Build>
+			<Target title="release">
+				<Option output="..\dchat.dll"/>
+				<Option working_dir="..\"/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option external_deps=""/>
+				<Option type="3"/>
+				<Option compiler="0"/>
+				<Option createStaticLib="1"/>
+			</Target>
+			<Target title="debug">
+				<Option output="..\dchat.dll"/>
+				<Option working_dir="..\"/>
+				<Option object_output=".objs"/>
+				<Option deps_output=".deps"/>
+				<Option external_deps=""/>
+				<Option type="3"/>
+				<Option compiler="0"/>
+				<Option createDefFile="1"/>
+				<Option createStaticLib="1"/>
+				<Compiler>
+					<Add option="-DD_DEBUG"/>
+				</Compiler>
+			</Target>
+		</Build>
+		<Unit filename="dchannelwindow\dchannelitemdelegate.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dchannelitemdelegate.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dchannelwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dchannelwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dchannelwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dmessagetable.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dmessagetable.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dmessagetable_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dsettingchannel.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dsettingchannel.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchannelwindow\dsettingchannel_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchatapplication.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchatapplication.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchatapplication_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dchatgemstone.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dchatgemstone.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dfriendswindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dfriendswindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dfriendswindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dfriendview.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dsettingfriends.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dsettingfriends.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dfriendswindow\dsettingfriends_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\ditemdelegate.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\ditemdelegate.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\ditemdelegate_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\ditemwidget.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\ditemwidget.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\dlistviewex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\dlistviewex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlistviewex\dlistviewex_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlogwindow\dlogwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlogwindow\dlogwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dlogwindow\dlogwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dmessageeditor\dmessageeditor.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dmessageeditor\dmessageeditor.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dmessageeditor\dmessageeditor_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dmessageeditor\dsettingmessageeditor.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dmessageeditor\dsettingmessageeditor.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dmessageeditor\dsettingmessageeditor_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dplugininterface.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dpropertywindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dpropertywindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dpropertywindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsetting.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsetting.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsetting_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettinggeneral.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettinggeneral.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettingplugin.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dsettingplugin.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="dsettinguserwin.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettinguserwin.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettinguserwin_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettingwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettingwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dsettingwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtopicwindow\dsettingtopic.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtopicwindow\dsettingtopic.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtopicwindow\dsettingtopic_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtopicwindow\dtopicwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtopicwindow\dtopicwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtopicwindow\dtopicwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dtrayicon\dtrayicon.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dudpsocket\dudpsocket.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="duserinfowindow\duserinfowindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="duserinfowindow\duserinfowindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="duserwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="duserwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="duserwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dview.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwarningwindow\dsettingwarning.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwarningwindow\dsettingwarning.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwarningwindow\dsettingwarning_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwarningwindow\dwarningwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwarningwindow\dwarningwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwarningwindow\dwarningwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwindow.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwindow.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="dwindow_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dabstractremoteusercreator.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dlocaluser.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dlocaluser.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dmanager.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dmanager.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dremoteuser.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dremoteuser.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dservice.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dservice.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\dservice_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\duser.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="net\duser.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dabstractusercreator.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\diplist.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\diplistex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\diplistex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dlocalautouserex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="netex\dlocalautouserex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="netex\dlocalautouserex_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="netex\dlocaluserex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dlocaluserex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dlocaluserex_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dmanagerex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dmanagerex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dmanagerex_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dremoteuserex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="netex\dremoteuserex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="netex\dsettinglocaluser.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="release"/>
+			<Option target="debug"/>
+		</Unit>
+		<Unit filename="netex\dsettinglocaluser.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettinglocaluser_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettingnet.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettingnet.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettingnet_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettingusers.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettingusers.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dsettingusers_moc.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\duserex.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\duserex.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dusersfactory.cpp">
+			<Option compilerVar="CPP"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+		<Unit filename="netex\dusersfactory.h">
+			<Option compilerVar=""/>
+			<Option compile="0"/>
+			<Option link="0"/>
+			<Option target="default"/>
+			<Option target="debug"/>
+			<Option target="release"/>
+		</Unit>
+	</Project>
+</Code::Blocks_project_file>

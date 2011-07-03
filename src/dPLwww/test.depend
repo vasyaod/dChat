@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1135617714 d:\myprog\dchat\src\test\main.cpp
+	"dplugin.h"
+
+1135615988 d:\myprog\dchat\src\test\plugin.h
+	<QtGui>
+
+1135619352 d:\myprog\dchat\src\test\dplugin_moc.cpp
+	"dplugin.h"
+
+1135625164 d:\myprog\dchat\src\test\dplugin.h
+	<QtGui>
+	"../dplugininterface.h"
+
+1135623946 d:\myprog\dchat\src\test\dplugin.cpp
+	"dplugin.h"
+	"../dchatgemstone.h"
+	"../net/dmanager.h"
+	"../net/duser.h"
+
+1135623472 d:\myprog\dchat\src\dplugininterface.h
+	<QtGui>
+
+1135753928 d:\myprog\dchat\src\dchatgemstone.h
+	<QtGui>
+
+1135729598 d:\myprog\dchat\src\net\dmanager.h
+	<QList>
+	<QHostAddress>
+	<list>
+	"duser.h"
+	"dservice.h"
+
+1135624342 d:\myprog\dchat\src\net\duser.h
+	<QtXml>
+	<QObject>
+	<QString>
+	<QHostAddress>
+	<QPixmap>
+	<QDateTime>
+	<QMetaType>
+
+1135577178 d:\myprog\dchat\src\net\dservice.h
+	<QtXml>
+	<QUdpSocket>
+	<QAbstractSocket>
+	<QTextStream>
+	<QIODevice>
+	"duser.h"
+
+1135206136 d:\myprog\dchat\src\net\duser.cpp
+	<QtGui>
+	"duser.h"
+	"dmanager.h"
+
+1135799182 d:\myprog\dchat\src\dplwww\dplwww_moc.cpp
+	"dplwww.h"
+
+1135799172 d:\myprog\dchat\src\dplwww\dplwww.h
+	<QtGui>
+	"../dplugininterface.h"
+
+1135799186 d:\myprog\dchat\src\dplwww\main.cpp
+	"dplwww.h"
+
+1135800632 d:\myprog\dchat\src\dplwww\dplwww.cpp
+	"dplwww.h"
+	"../dchatgemstone.h"
+

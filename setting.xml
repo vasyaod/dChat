@@ -1,0 +1,224 @@
+<?xml version='1.0'?>
+<root>
+     <general>
+          <title value="dChat" />
+          <version value="v1.1" />
+          <author>Vasya Vazhesov</author>
+          <email>vasyaod@mail.ru</email>
+          <license>LICENSE.GPL</license>
+          <logo>pic/dchat_logo150x64.png</logo>
+          <qt_logo>pic/qtlogo150x72.png</qt_logo>
+          <codeblock_logo>pic/codeblock.png</codeblock_logo>
+          <window_plugin lib="dwindowframe.dll" />
+          <tray_plugin lib="dtrayicon.dll" />
+          <tray_icon file="dchat.ico" />
+          <plugins_dir value="./plugins/" />
+          <windows>
+               <user_window>
+                    <position x="530" y="0" />
+                    <size width="270" height="510" />
+                    <opacity value="100" />
+                    <skin value="window-skin\ice\window-skin.ini" />
+                    <minimum_size width="220" height="200" />
+               </user_window>
+               <user_windows_other>
+                    <view_type value="3" />
+                    <splitter_sizes size0="129" size1="225" />
+                    <table_header_sizes column0="138" column1="51" column2="48" column3="100" column4="121" column5="182" column6="0" column7="0" column8="0" />
+                    <icon_size_to_icon value="3" />
+                    <icon_size_to_list value="2" />
+                    <icon_size_to_table value="1" />
+                    <table_header_sizes_search column0="102" column1="51" column2="43" column3="100" column4="100" column5="100" column6="0" column7="0" column8="0" />
+                    <window_state array="000000ff00000000fe0000000200000002000000020000001c0074006f006f006c006200610072005f00770069006e0064006f0077010000000000000013000000720000001700000000000000000000000e0074006f006f006c0062006100720100000072000000130000009600000017000000000000000000000002000000020000001a006e0075006d006200650072007500730065007200620061007201000000000000002a000000a60000001400000000000000000000001200730065006100720063006800620061007201000000a60000002a00000062000000140000000000000000fd00000000000001080000019a" size="244" />
+               </user_windows_other>
+               <topic_window>
+                    <position x="230" y="0" />
+                    <size width="300" height="150" />
+                    <opacity value="100" />
+                    <skin value="window-skin\ice\window-skin.ini" />
+                    <visible value="1" />
+                    <minimum_size width="300" height="150" />
+                    <font discript="MS Shell Dlg,8.25,-1,5,50,0,0,0,0,0" />
+               </topic_window>
+               <channel_window>
+                    <position x="230" y="150" />
+                    <size width="300" height="360" />
+                    <opacity value="96" />
+                    <skin value="window-skin\ice\window-skin.ini" />
+                    <visible value="1" />
+                    <minimum_size width="300" height="200" />
+               </channel_window>
+               <channel_window_other>
+                    <splitter_sizes size0="245" size1="71" />
+                    <view_type value="0" />
+                    <max_message value="30" />
+                    <max_name value="10" />
+               </channel_window_other>
+               <message_editor>
+                    <splitter_sizes size0="131" size1="52" />
+                    <size width="430" height="394" />
+                    <quoting type="1" />
+                    <message_editor_state array="000000ff00000000fe000000050000000200000001000000180074006f006f006c006200610072005f00660072006f006d010000000000000013000001ae0000001800000000000000000000000200000001000000140074006f006f006c006200610072005f0074006f01000000000000002b000001ae0000001800000000000000000000000200000001000000200074006f006f006c006200610072005f006d00730067005f0074007900700065010000000000000043000001ae0000001600000000000000000000000200000002000000180074006f006f006c006200610072005f00650064006900740100000000000000590000008c000000170000000000000000000000180074006f006f006c006200610072005f0066006f006e0074010000008c000000590000012200000017000000000000000000000000000000010000001c0074006f006f006c006200610072005f0066006f0072006d00610074010000000000000070000000180000011a0000000000000000fd00000000000001960000011a" size="392" />
+               </message_editor>
+               <warning_window>
+                    <position x="0" y="0" />
+                    <size width="191" height="2" />
+                    <opacity value="100" />
+                    <skin value="window-skin\ice-null\window-skin.ini" />
+                    <minimum_size width="100" height="2" />
+               </warning_window>
+               <style>
+                    <style value="ICEStyle" />
+                    <start_minimized value="1" />
+               </style>
+               <friends_window>
+                    <position x="233" y="0" />
+                    <size width="260" height="130" />
+                    <minimum_size width="200" height="100" />
+                    <opacity value="100" />
+                    <skin value="window-skin\ice\window-skin.ini" />
+                    <minimum_size/>
+                    <visible value="0" />
+               </friends_window>
+          </windows>
+          <nets>
+               <port value="8167" />
+               <broadcast_ip value="1.2.3.255" />
+               <timeout value="150" />
+               <refresh value="60" />
+               <refresh_info value="80" />
+               <send_type value="1" />
+               <ip_list key="range_ip" >
+                    <range_ip>
+                         <range border1="1.2.2.1" border2="1.2.3.254" />
+                    </range_ip>
+               </ip_list>
+               <network_module value="1" />
+          </nets>
+          <users>
+               <user key="STD_USER" name="7r715 VasyaOD" >
+                    <STD_USER>
+                         <avatar value="avatar\monkey.png" />
+                         <login value="Entry in system not executed. :)" />
+                         <auto_answer value="--== auto answer ==--" />
+                         <sex value="2" />
+                         <passive_mode/>
+                    </STD_USER>
+               </user>
+               <user key="AUTO_USER" name="7r715 http://1.2.3.254/dchat" >
+                    <AUTO_USER>
+                         <avatar value="avatar\d48x48.png" />
+                         <login/>
+                         <auto_answer value="Тестирование чата....
+Заходите на сайт.... присоединяйтесь....
+ПОСЛЕДНЯЯ ВЕРСИЯ 1.1 -stable" />
+                         <sex/>
+                         <passive_mode value="0" />
+                    </AUTO_USER>
+               </user>
+          </users>
+          <warning>
+               <persnal_warning window="1" sound="1" sound_file="sound\sound.wav" color="-3121555" />
+               <mass_warning window="0" sound="0" color="-592298" />
+               <enter_warning window="0" sound="0" color="-12995254" />
+               <exit_warning window="0" sound="0" color="-12995254" />
+               <beep_warning window="1" sound="1" sound_file="sound\sound.wav" color="-32360" />
+               <rename_warning window="0" sound="0" color="-10636801" />
+               <channel_warning window="0" sound="0" color="-2151" />
+               <channel_me_warning window="0" sound="0" color="-2151" />
+               <topic_warning window="0" sound="0" color="-7619599" />
+               <time value="3" />
+               <max_window value="3" />
+          </warning>
+          <log_window>
+               <mass_table_header_sizes column0="49" column1="96" column2="54" column3="101" column4="79" column5="31" column6="179" />
+               <double_mass value="2" />
+               <window_state array="000000ff00000000fe0000000100000002000000010000001e0074006f006f006c006200610072005f006c006f0067005f00770069006e01000000000000000000000320000000170000000000000000fd0000000100000000000000ad0000022efc0200000001fb0000002c0063006f006e00740065006e00740073007700690064006700650074005f006c006f0067005f00770069006e01000000000000022e0000004b00ffffff000002730000022e" size="177" />
+               <log_table_header_sizes column0="134" column1="90" column2="56" column3="96" column4="59" column5="27" column6="127" />
+               <log_dir value="logs/" />
+               <content_current_item item="0" />
+          </log_window>
+          <property_window_state array="000000ff00000000fe000000010000000200000001000000280074006f006f006c006200610072005f00700072006f00700065007200740079005f00770069006e01000000000000000000000320000000170000000000000000fd00000001000000000000010700000227fc0200000001fb000000360063006f006e00740065006e00740073007700690064006700650074005f00700072006f00700065007200740079005f00770069006e0100000000000002270000004e00ffffff0000021900000227" size="197" />
+          <map_of_key>
+               <key eng="q" rus="й" />
+               <key eng="w" rus="ц" />
+               <key eng="e" rus="у" />
+               <key eng="r" rus="к" />
+               <key eng="t" rus="е" />
+               <key eng="y" rus="н" />
+               <key eng="u" rus="г" />
+               <key eng="i" rus="ш" />
+               <key eng="o" rus="щ" />
+               <key eng="p" rus="з" />
+               <key eng="[" rus="х" />
+               <key eng="]" rus="ъ" />
+               <key eng="Q" rus="Й" />
+               <key eng="W" rus="Ц" />
+               <key eng="E" rus="У" />
+               <key eng="R" rus="К" />
+               <key eng="T" rus="Е" />
+               <key eng="Y" rus="Н" />
+               <key eng="U" rus="Г" />
+               <key eng="I" rus="Ш" />
+               <key eng="O" rus="Щ" />
+               <key eng="P" rus="З" />
+               <key eng="{" rus="Х" />
+               <key eng="}" rus="Ъ" />
+               <key eng="a" rus="ф" />
+               <key eng="s" rus="ы" />
+               <key eng="d" rus="в" />
+               <key eng="f" rus="а" />
+               <key eng="g" rus="п" />
+               <key eng="h" rus="р" />
+               <key eng="j" rus="о" />
+               <key eng="k" rus="л" />
+               <key eng="l" rus="д" />
+               <key eng=";" rus="ж" />
+               <key eng="'" rus="э" />
+               <key eng="A" rus="ф" />
+               <key eng="S" rus="Ы" />
+               <key eng="D" rus="В" />
+               <key eng="F" rus="А" />
+               <key eng="G" rus="П" />
+               <key eng="H" rus="Р" />
+               <key eng="J" rus="О" />
+               <key eng="K" rus="Л" />
+               <key eng="L" rus="Д" />
+               <key eng=":" rus="Ж" />
+               <key eng="&quot;" rus="Э" />
+               <key eng="z" rus="я" />
+               <key eng="x" rus="ч" />
+               <key eng="c" rus="с" />
+               <key eng="v" rus="м" />
+               <key eng="b" rus="и" />
+               <key eng="n" rus="т" />
+               <key eng="m" rus="ь" />
+               <key eng="," rus="б" />
+               <key eng="." rus="ю" />
+               <key eng="//" rus="." />
+               <key eng="Z" rus="Я" />
+               <key eng="X" rus="Ч" />
+               <key eng="C" rus="С" />
+               <key eng="V" rus="М" />
+               <key eng="B" rus="И" />
+               <key eng="N" rus="Т" />
+               <key eng="M" rus="Ь" />
+               <key eng="&lt;" rus="Б" />
+               <key eng=">" rus="Ю" />
+               <key eng="?" rus="," />
+          </map_of_key>
+          <friends_window>
+               <friend ip="1.2.2.160" name="*" />
+               <friend ip="1.2.2.135" name="*" />
+               <friend ip="1.2.3.235" name="*" />
+               <friend ip="1.2.3.254" name="*" />
+               <friend ip="1.2.3.160" name="*" />
+          </friends_window>
+          <plugins>
+               <pl_command>
+                    <item_name value="Открыть FTP" />
+                    <command value="explorer  ftp://$ip" />
+               </pl_command>
+          </plugins>
+     </general>
+</root>

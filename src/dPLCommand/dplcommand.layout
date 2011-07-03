@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Code::Blocks_layout_file>
+<Code::Blocks_layout_file>
+	<File name="dplcommand.cpp" open="0" top="0">
+		<Cursor position="345" topLine="0"/>
+	</File>
+	<File name="dplcommand.h" open="0" top="0">
+		<Cursor position="347" topLine="17"/>
+	</File>
+	<File name="dsettingplcommand.h" open="0" top="0">
+		<Cursor position="198" topLine="0"/>
+	</File>
+	<File name="main.cpp" open="0" top="0">
+		<Cursor position="58" topLine="0"/>
+	</File>
+	<File name="..\dchatgemstone.h" open="0" top="0">
+		<Cursor position="664" topLine="9"/>
+	</File>
+</Code::Blocks_layout_file>

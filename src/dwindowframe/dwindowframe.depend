@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1133578544 d:\myprog\dchat-interface\dwindowframe\dpixmapbutton_moc.cpp
+	"dpixmapbutton.h"
+
+1122867466 d:\myprog\dchat-interface\dwindowframe\dpixmapbutton.h
+	<QtGui>
+	"dpixmapview.h"
+
+1133581552 d:\myprog\dchat-interface\dwindowframe\dpixmapview.h
+	<QtGui>
+
+1122707594 d:\myprog\dchat-interface\dwindowframe\dpixmapview.cpp
+	<QtGui>
+	"dpixmapview.h"
+
+1133578538 d:\myprog\dchat-interface\dwindowframe\dwindowframe_moc.cpp
+	"dwindowframe.h"
+
+1133583724 d:\myprog\dchat-interface\dwindowframe\dwindowframe.h
+	<QtGui>
+	"dpixmapbutton.h"
+	"dpixmapview.h"
+
+1122966638 d:\myprog\dchat-interface\dwindowframe\main.cpp
+	"dwindowframe.h"
+
+1133581554 d:\myprog\dchat-interface\dwindowframe\dpixmapbutton.cpp
+	<QtGui>
+	"dpixmapbutton.h"
+
+1133584176 d:\myprog\dchat-interface\dwindowframe\dwindowframe.cpp
+	<QtGui>
+	<algorithm>
+	"dwindowframe.h"
+	"dpixmapbutton.h"
+	"dpixmapview.h"
+

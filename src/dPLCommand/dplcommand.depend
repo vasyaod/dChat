@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1135818584 d:\myprog\dchat\src\dplcommand\dplcommand_moc.cpp
+	"dplcommand.h"
+
+1135819542 d:\myprog\dchat\src\dplcommand\dplcommand.h
+	<QtGui>
+	"../dplugininterface.h"
+
+1135623472 d:\myprog\dchat\src\dplugininterface.h
+	<QtGui>
+
+1135818090 d:\myprog\dchat\src\dplcommand\dsettingplcommand_moc.cpp
+	"dsettingplcommand.h"
+
+1135818600 d:\myprog\dchat\src\dplcommand\dsettingplcommand.h
+	"../dsetting.h"
+
+1135514226 d:\myprog\dchat\src\dsetting.h
+	<QtGui>
+	<QtXml>
+
+1135815094 d:\myprog\dchat\src\dplcommand\main.cpp
+	"dplcommand.h"
+
+1135820460 d:\myprog\dchat\src\dplcommand\dplcommand.cpp
+	"dplcommand.h"
+	"../dchatgemstone.h"
+	"dsettingplcommand.h"
+	"../net/dmanager.h"
+
+1135816296 d:\myprog\dchat\src\dchatgemstone.h
+	<QtGui>
+
+1135820272 d:\myprog\dchat\src\net\dmanager.h
+	<QList>
+	<QHostAddress>
+	<list>
+	"duser.h"
+	"dservice.h"
+
+1135819798 d:\myprog\dchat\src\net\duser.h
+	<QtXml>
+	<QObject>
+	<QString>
+	<QHostAddress>
+	<QPixmap>
+	<QDateTime>
+	<QMetaType>
+
+1135577178 d:\myprog\dchat\src\net\dservice.h
+	<QtXml>
+	<QUdpSocket>
+	<QAbstractSocket>
+	<QTextStream>
+	<QIODevice>
+	"duser.h"
+

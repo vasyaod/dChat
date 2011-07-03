@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE Code::Blocks_layout_file>
+<Code::Blocks_layout_file>
+	<File name="icestyle.cpp" open="0" top="0">
+		<Cursor position="6839" topLine="0"/>
+	</File>
+	<File name="icestyle.h" open="0" top="0">
+		<Cursor position="914" topLine="8"/>
+	</File>
+	<File name="main.cpp" open="0" top="0">
+		<Cursor position="280" topLine="3"/>
+	</File>
+	<File name="qwindowsstyle.cpp" open="0" top="0">
+		<Cursor position="1292" topLine="282"/>
+	</File>
+	<File name="qwindowsstyle_moc.cpp" open="0" top="0">
+		<Cursor position="413" topLine="0"/>
+	</File>
+</Code::Blocks_layout_file>
